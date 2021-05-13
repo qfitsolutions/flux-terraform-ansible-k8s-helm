@@ -1,375 +1,374 @@
 # Tutorials
-create mode 100644 assets/youtube-art.png
- create mode 100644 lessons/006/README.md
- create mode 100644 lessons/006/main.tf
- create mode 100644 lessons/014/README.md
- create mode 100644 lessons/014/ansible.cfg
- create mode 100644 lessons/014/main.tf
- create mode 100644 lessons/014/nginx.yaml
- create mode 100644 lessons/014/roles/nginx/tasks/main.yaml
- create mode 100644 lessons/020/README.md
- create mode 100644 lessons/020/main.tf
- create mode 100644 lessons/021/README.md
- create mode 100644 lessons/021/eksctl-cluster.yaml
- create mode 100644 lessons/021/hello-wolrd/.helmignore
- create mode 100644 lessons/021/hello-wolrd/Chart.yaml
- create mode 100644 lessons/021/hello-wolrd/templates/NOTES.txt
- create mode 100644 lessons/021/hello-wolrd/templates/_helpers.tpl
- create mode 100644 lessons/021/hello-wolrd/templates/deployment.yaml
- create mode 100644 lessons/021/hello-wolrd/templates/hpa.yaml
- create mode 100644 lessons/021/hello-wolrd/templates/ingress.yaml
- create mode 100644 lessons/021/hello-wolrd/templates/service.yaml
- create mode 100644 lessons/021/hello-wolrd/templates/serviceaccount.yaml
- create mode 100644 lessons/021/hello-wolrd/templates/tests/test-connection.yaml
- create mode 100644 lessons/021/hello-wolrd/values.yaml
- create mode 100644 lessons/022/1/app/.helmignore
- create mode 100644 lessons/022/1/app/Chart.lock
- create mode 100644 lessons/022/1/app/Chart.yaml
- create mode 100644 lessons/022/1/app/templates/NOTES.txt
- create mode 100644 lessons/022/1/app/templates/_helpers.tpl
- create mode 100644 lessons/022/1/app/templates/deployment.yaml
- create mode 100644 lessons/022/1/app/templates/hpa.yaml
- create mode 100644 lessons/022/1/app/templates/ingress.yaml
- create mode 100644 lessons/022/1/app/templates/service.yaml
- create mode 100644 lessons/022/1/app/templates/serviceaccount.yaml
- create mode 100644 lessons/022/1/app/templates/tests/test-connection.yaml
- create mode 100644 lessons/022/1/app/values.yaml
- create mode 100644 lessons/022/1/database/.helmignore
- create mode 100644 lessons/022/1/database/Chart.yaml
- create mode 100644 lessons/022/1/database/templates/NOTES.txt
- create mode 100644 lessons/022/1/database/templates/_helpers.tpl
- create mode 100644 lessons/022/1/database/templates/deployment.yaml
- create mode 100644 lessons/022/1/database/templates/hpa.yaml
- create mode 100644 lessons/022/1/database/templates/ingress.yaml
- create mode 100644 lessons/022/1/database/templates/service.yaml
- create mode 100644 lessons/022/1/database/templates/serviceaccount.yaml
- create mode 100644 lessons/022/1/database/templates/tests/test-connection.yaml
- create mode 100644 lessons/022/1/database/values.yaml
- create mode 100644 lessons/022/2/app/.helmignore
- create mode 100644 lessons/022/2/app/Chart.lock
- create mode 100644 lessons/022/2/app/Chart.yaml
- create mode 100644 lessons/022/2/app/templates/NOTES.txt
- create mode 100644 lessons/022/2/app/templates/_helpers.tpl
- create mode 100644 lessons/022/2/app/templates/deployment.yaml
- create mode 100644 lessons/022/2/app/templates/hpa.yaml
- create mode 100644 lessons/022/2/app/templates/ingress.yaml
- create mode 100644 lessons/022/2/app/templates/service.yaml
- create mode 100644 lessons/022/2/app/templates/serviceaccount.yaml
- create mode 100644 lessons/022/2/app/templates/tests/test-connection.yaml
- create mode 100644 lessons/022/2/app/values.yaml
- create mode 100644 lessons/022/2/database/.helmignore
- create mode 100644 lessons/022/2/database/Chart.yaml
- create mode 100644 lessons/022/2/database/templates/NOTES.txt
- create mode 100644 lessons/022/2/database/templates/_helpers.tpl
- create mode 100644 lessons/022/2/database/templates/deployment.yaml
- create mode 100644 lessons/022/2/database/templates/hpa.yaml
- create mode 100644 lessons/022/2/database/templates/ingress.yaml
- create mode 100644 lessons/022/2/database/templates/service.yaml
- create mode 100644 lessons/022/2/database/templates/serviceaccount.yaml
- create mode 100644 lessons/022/2/database/templates/tests/test-connection.yaml
- create mode 100644 lessons/022/2/database/values.yaml
- create mode 100644 lessons/022/3/app/.helmignore
- create mode 100644 lessons/022/3/app/Chart.lock
- create mode 100644 lessons/022/3/app/Chart.yaml
- create mode 100644 lessons/022/3/app/templates/NOTES.txt
- create mode 100644 lessons/022/3/app/templates/_helpers.tpl
- create mode 100644 lessons/022/3/app/templates/deployment.yaml
- create mode 100644 lessons/022/3/app/templates/hpa.yaml
- create mode 100644 lessons/022/3/app/templates/ingress.yaml
- create mode 100644 lessons/022/3/app/templates/service.yaml
- create mode 100644 lessons/022/3/app/templates/serviceaccount.yaml
- create mode 100644 lessons/022/3/app/templates/tests/test-connection.yaml
- create mode 100644 lessons/022/3/app/values.yaml
- create mode 100644 lessons/022/3/database/.helmignore
- create mode 100644 lessons/022/3/database/Chart.yaml
- create mode 100644 lessons/022/3/database/templates/NOTES.txt
- create mode 100644 lessons/022/3/database/templates/_helpers.tpl
- create mode 100644 lessons/022/3/database/templates/deployment.yaml
- create mode 100644 lessons/022/3/database/templates/hpa.yaml
- create mode 100644 lessons/022/3/database/templates/ingress.yaml
- create mode 100644 lessons/022/3/database/templates/service.yaml
- create mode 100644 lessons/022/3/database/templates/serviceaccount.yaml
- create mode 100644 lessons/022/3/database/templates/tests/test-connection.yaml
- create mode 100644 lessons/022/3/database/values.yaml
- create mode 100644 lessons/022/README.md
- create mode 100644 lessons/022/eksctl-cluster.yaml
- create mode 100644 lessons/038/README.md
- create mode 100644 lessons/038/k8s/app.yaml
- create mode 100644 lessons/038/k8s/rbac.yaml
- create mode 100644 lessons/038/terraform/eips.tf
- create mode 100644 lessons/038/terraform/eks-node-groups.tf
- create mode 100644 lessons/038/terraform/eks.tf
- create mode 100644 lessons/038/terraform/internet-gateway.tf
- create mode 100644 lessons/038/terraform/nat-gateways.tf
- create mode 100644 lessons/038/terraform/provider.tf
- create mode 100644 lessons/038/terraform/route-table-association.tf
- create mode 100644 lessons/038/terraform/routing-tables.tf
- create mode 100644 lessons/038/terraform/subnets.tf
- create mode 100644 lessons/038/terraform/vpc.tf
- create mode 100644 lessons/039/README.md
- create mode 100644 lessons/039/config.yaml
- create mode 100644 lessons/040/main.tf
- create mode 100644 lessons/040/output.tf
- create mode 100644 lessons/040/provider.tf
- create mode 100644 lessons/040/variables.tf
- create mode 100644 lessons/041/README.md
- create mode 100644 lessons/041/cluster.yaml
- create mode 100644 lessons/041/efs/1-namespace.yaml
- create mode 100644 lessons/041/efs/2-service-account.yaml
- create mode 100644 lessons/041/efs/3-clusterrole.yaml
- create mode 100644 lessons/041/efs/4-clusterrolebinding.yaml
- create mode 100644 lessons/041/efs/5-role.yaml
- create mode 100644 lessons/041/efs/6-rolebinding.yaml
- create mode 100644 lessons/041/efs/7-deployment.yaml
- create mode 100644 lessons/041/efs/8-storage-class.yaml
- create mode 100644 lessons/041/test/1-namespace.yaml
- create mode 100644 lessons/041/test/2-persistent-volume-claim.yaml
- create mode 100644 lessons/041/test/3-foo-deployment.yaml
- create mode 100644 lessons/041/test/4-bar-deployment.yaml
- create mode 100644 lessons/042/README.md
- create mode 100644 lessons/042/cluster.yaml
- create mode 100644 lessons/042/secret-v1.yaml
- create mode 100644 lessons/042/secret-v2.yaml
- create mode 100644 lessons/042/token.txt
- create mode 100644 lessons/042/v1/kustomization.yaml
- create mode 100644 lessons/042/v1/token
- create mode 100644 lessons/042/v2/kustomization.yaml
- create mode 100644 lessons/043/Makefile
- create mode 100644 lessons/043/README.md
- create mode 100644 lessons/043/app/Dockerfile
- create mode 100644 lessons/043/app/go.mod
- create mode 100644 lessons/043/app/go.sum
- create mode 100644 lessons/043/app/main.go
- create mode 100644 lessons/043/eks.yaml
- create mode 100644 lessons/043/k8s/01-secret.yaml
- create mode 100644 lessons/043/k8s/02-deployment-file.yaml
- create mode 100644 lessons/043/k8s/04-deployment-env.yaml
- create mode 100644 lessons/044/Makefile
- create mode 100644 lessons/044/README.md
- create mode 100644 lessons/044/app/.dockerignore
- create mode 100644 lessons/044/app/Dockerfile
- create mode 100644 lessons/044/app/requirements.txt
- create mode 100644 lessons/044/app/src/server.py
- create mode 100644 lessons/044/cert.pem
- create mode 100644 lessons/044/eks.yaml
- create mode 100644 lessons/044/k8s/01-kubeseal.yaml
- create mode 100644 lessons/044/k8s/02-namespace.yaml
- create mode 100644 lessons/044/k8s/03-secret.yaml
- create mode 100644 lessons/044/k8s/04-sealedsecret.yaml
- create mode 100644 lessons/044/k8s/05-deployment.yaml
- create mode 100644 lessons/045/README.md
- create mode 100644 lessons/045/eks.yaml
- create mode 100644 lessons/045/k8s/01-production-ns.yaml
- create mode 100644 lessons/045/k8s/02-staging-ns.yaml
- create mode 100644 lessons/045/k8s/03-production-deployment.yaml
- create mode 100644 lessons/045/k8s/04-staging-deployment.yaml
- create mode 100644 lessons/046/README.md
- create mode 100644 lessons/046/app/.dockerignore
- create mode 100644 lessons/046/app/Dockerfile
- create mode 100644 lessons/046/app/package-lock.json
- create mode 100644 lessons/046/app/package.json
- create mode 100644 lessons/046/app/server.js
- create mode 100644 lessons/046/eks.yaml
- create mode 100644 lessons/046/k8s/1-express.yaml
- create mode 100644 lessons/046/k8s/2-nginx-ingress.yaml
- create mode 100644 lessons/046/k8s/3-http-ingress.yaml
- create mode 100644 lessons/046/k8s/4-cert-manager.yaml
- create mode 100644 lessons/046/k8s/5-issuer.yaml
- create mode 100644 lessons/046/k8s/8-https-ingress.yaml
- create mode 100644 lessons/047/README.md
- create mode 100644 lessons/047/hello-app/Dockerfile
- create mode 100644 lessons/047/hello-app/app.js
- create mode 100644 lessons/047/hello-app/package-lock.json
- create mode 100644 lessons/047/hello-app/package.json
- create mode 100644 lessons/048/README.md
- create mode 100644 lessons/048/hello-app/Dockerfile
- create mode 100644 lessons/048/hello-app/app.js
- create mode 100644 lessons/048/hello-app/app.test.js
- create mode 100644 lessons/048/hello-app/event.json
- create mode 100644 lessons/048/hello-app/package-lock.json
- create mode 100644 lessons/048/hello-app/package.json
- create mode 100644 lessons/049/README.md
- create mode 100644 lessons/049/alertmanager/1-config.yaml
- create mode 100644 lessons/049/alertmanager/2-alertmanager.yaml
- create mode 100644 lessons/049/alertmanager/3-ingress.yaml
- create mode 100644 lessons/049/alertmanager/4-service-monitor.yaml
- create mode 100644 lessons/049/alertmanager/5-rule.yaml
- create mode 100644 lessons/049/crds/alertmanagerconfigs.yaml
- create mode 100644 lessons/049/crds/alertmanagers.yaml
- create mode 100644 lessons/049/crds/podmonitors.yaml
- create mode 100644 lessons/049/crds/probes.yaml
- create mode 100644 lessons/049/crds/prometheuses.yaml
- create mode 100644 lessons/049/crds/prometheusrules.yaml
- create mode 100644 lessons/049/crds/servicemonitors.yaml
- create mode 100644 lessons/049/crds/thanosrulers.yaml
- create mode 100644 lessons/049/eks.yaml
- create mode 100644 lessons/049/grafana/1-service-account.yaml
- create mode 100644 lessons/049/grafana/2-configmap.yaml
- create mode 100644 lessons/049/grafana/3-pvc.yaml
- create mode 100644 lessons/049/grafana/4-secret.yaml
- create mode 100644 lessons/049/grafana/5-deployment.yaml
- create mode 100644 lessons/049/grafana/6-service.yaml
- create mode 100644 lessons/049/grafana/7-ingress.yaml
- create mode 100644 lessons/049/grafana/8-service-monitor.yaml
- create mode 100644 lessons/049/prometheus-operator/0-namespace.yaml
- create mode 100644 lessons/049/prometheus-operator/1-service-account.yaml
- create mode 100644 lessons/049/prometheus-operator/2-cluster-role.yaml
- create mode 100644 lessons/049/prometheus-operator/3-cluster-role-binding.yaml
- create mode 100644 lessons/049/prometheus-operator/4-deployment.yaml
- create mode 100644 lessons/049/prometheus-operator/5-service.yaml
- create mode 100644 lessons/049/prometheus-operator/6-service-monitor.yaml
- create mode 100644 lessons/049/prometheus/1-service-account.yaml
- create mode 100644 lessons/049/prometheus/2-cluster-role.yaml
- create mode 100644 lessons/049/prometheus/3-cluster-role-binding.yaml
- create mode 100644 lessons/049/prometheus/4-prometheus.yaml
- create mode 100644 lessons/049/prometheus/5-ingress.yaml
- create mode 100644 lessons/049/prometheus/6-service-monitor.yaml
- create mode 100644 lessons/050/README.md
- create mode 100644 lessons/050/drage/.dockerignore
- create mode 100644 lessons/050/drage/.eslintrc.js
- create mode 100644 lessons/050/drage/.gitignore
- create mode 100644 lessons/050/drage/.prettierrc
- create mode 100644 lessons/050/drage/Dockerfile
- create mode 100644 lessons/050/drage/README.md
- create mode 100644 lessons/050/drage/nest-cli.json
- create mode 100644 lessons/050/drage/package-lock.json
- create mode 100644 lessons/050/drage/package.json
- create mode 100644 lessons/050/drage/src/app.controller.spec.ts
- create mode 100644 lessons/050/drage/src/app.controller.ts
- create mode 100644 lessons/050/drage/src/app.module.ts
- create mode 100644 lessons/050/drage/src/app.service.ts
- create mode 100644 lessons/050/drage/src/books/books.controller.spec.ts
- create mode 100644 lessons/050/drage/src/books/books.controller.ts
- create mode 100644 lessons/050/drage/src/books/books.module.ts
- create mode 100644 lessons/050/drage/src/books/books.service.spec.ts
- create mode 100644 lessons/050/drage/src/books/books.service.ts
- create mode 100644 lessons/050/drage/src/books/dto/create-book.dto.ts
- create mode 100644 lessons/050/drage/src/books/dto/update-book.dto.ts
- create mode 100644 lessons/050/drage/src/books/entities/book.entity.ts
- create mode 100644 lessons/050/drage/src/books/schemas/book.schema.ts
- create mode 100644 lessons/050/drage/src/main.ts
- create mode 100644 lessons/050/drage/test/app.e2e-spec.ts
- create mode 100644 lessons/050/drage/test/jest-e2e.json
- create mode 100644 lessons/050/drage/tsconfig.build.json
- create mode 100644 lessons/050/drage/tsconfig.json
- create mode 100644 lessons/050/eks.yaml
- create mode 100644 lessons/050/k8s/drage/1-namespace.yaml
- create mode 100644 lessons/050/k8s/drage/2-secrets.yaml
- create mode 100644 lessons/050/k8s/drage/3-deployment.yaml
- create mode 100644 lessons/050/k8s/drage/4-service.yaml
- create mode 100644 lessons/050/k8s/mongodb/1-database-namespace.yaml
- create mode 100644 lessons/050/k8s/mongodb/10-monogodb-servicemonitor.yaml
- create mode 100644 lessons/050/k8s/mongodb/2-mongodb-secrets.yaml
- create mode 100644 lessons/050/k8s/mongodb/3-mongodb-serviceaccount.yaml
- create mode 100644 lessons/050/k8s/mongodb/4-mongodb-scripts-configmap.yaml
- create mode 100644 lessons/050/k8s/mongodb/5-mongodb-statefulset.yaml
- create mode 100644 lessons/050/k8s/mongodb/6-mongodb-headless-svc.yaml
- create mode 100644 lessons/050/k8s/mongodb/7-arbiter-statefulset.yaml
- create mode 100644 lessons/050/k8s/mongodb/8-arbiter-headless-svc.yaml
- create mode 100644 lessons/050/k8s/mongodb/9-monogodb-metrics-svc.yaml
- create mode 100644 lessons/051/README.md
- create mode 100644 lessons/051/app123/.gitignore
- create mode 100644 lessons/051/app123/README.md
- create mode 100644 lessons/051/app123/package-lock.json
- create mode 100644 lessons/051/app123/package.json
- create mode 100644 lessons/051/app123/public/favicon.ico
- create mode 100644 lessons/051/app123/public/index.html
- create mode 100644 lessons/051/app123/public/logo192.png
- create mode 100644 lessons/051/app123/public/logo512.png
- create mode 100644 lessons/051/app123/public/manifest.json
- create mode 100644 lessons/051/app123/public/robots.txt
- create mode 100644 lessons/051/app123/src/App.css
- create mode 100644 lessons/051/app123/src/App.js
- create mode 100644 lessons/051/app123/src/App.test.js
- create mode 100644 lessons/051/app123/src/index.css
- create mode 100644 lessons/051/app123/src/index.js
- create mode 100644 lessons/051/app123/src/logo.svg
- create mode 100644 lessons/051/app123/src/reportWebVitals.js
- create mode 100644 lessons/051/app123/src/setupTests.js
- create mode 100644 lessons/052/README.md
- create mode 100644 lessons/052/app123/.gitignore
- create mode 100644 lessons/052/app123/README.md
- create mode 100644 lessons/052/app123/package-lock.json
- create mode 100644 lessons/052/app123/package.json
- create mode 100644 lessons/052/app123/public/CNAME
- create mode 100644 lessons/052/app123/public/favicon.ico
- create mode 100644 lessons/052/app123/public/index.html
- create mode 100644 lessons/052/app123/public/logo192.png
- create mode 100644 lessons/052/app123/public/logo512.png
- create mode 100644 lessons/052/app123/public/manifest.json
- create mode 100644 lessons/052/app123/public/robots.txt
- create mode 100644 lessons/052/app123/src/App.css
- create mode 100644 lessons/052/app123/src/App.js
- create mode 100644 lessons/052/app123/src/App.test.js
- create mode 100644 lessons/052/app123/src/index.css
- create mode 100644 lessons/052/app123/src/index.js
- create mode 100644 lessons/052/app123/src/logo.svg
- create mode 100644 lessons/052/app123/src/reportWebVitals.js
- create mode 100644 lessons/052/app123/src/setupTests.js
- create mode 100644 lessons/053/README.md
- create mode 100644 lessons/053/infra-2/.circleci/config.yml
- create mode 100644 lessons/053/infra-2/.gitignore
- create mode 100644 lessons/053/infra-2/main.tf
- create mode 100644 lessons/054/README.md
- create mode 100644 lessons/054/ca-config.json
- create mode 100644 lessons/054/ca-csr.json
- create mode 100644 lessons/054/ca-key.pem
- create mode 100644 lessons/054/ca.csr
- create mode 100644 lessons/054/ca.pem
- create mode 100644 lessons/054/devopsbyexample-csr.json
- create mode 100644 lessons/054/devopsbyexample-key.pem
- create mode 100644 lessons/054/devopsbyexample.csr
- create mode 100644 lessons/054/devopsbyexample.pem
- create mode 100644 lessons/055/README.md
- create mode 100644 lessons/055/nginx/Dockerfile
- create mode 100644 lessons/055/nginx/devopsbyexample.conf
- create mode 100644 lessons/055/nginx/index.html
- create mode 100644 lessons/055/nginx/nginx.conf
- create mode 100644 lessons/056/README.md
- create mode 100644 lessons/057/README.md
- create mode 100644 lessons/058/README.md
- create mode 100644 lessons/058/function/Dockerfile
- create mode 100644 lessons/058/function/app.py
- create mode 100644 lessons/058/function/requirements.txt
- create mode 100644 lessons/058/main.py
- create mode 100644 lessons/058/title.txt
- create mode 100644 lessons/059/README.md
- create mode 100644 lessons/059/eks.yaml
- create mode 100644 lessons/059/foo/.helmignore
- create mode 100644 lessons/059/foo/Chart.yaml
- create mode 100644 lessons/059/foo/templates/NOTES.txt
- create mode 100644 lessons/059/foo/templates/_helpers.tpl
- create mode 100644 lessons/059/foo/templates/deployment.yaml
- create mode 100644 lessons/059/foo/templates/hooks/post-install.yaml
- create mode 100644 lessons/059/foo/templates/hooks/pre-install.yaml
- create mode 100644 lessons/059/foo/templates/hpa.yaml
- create mode 100644 lessons/059/foo/templates/ingress.yaml
- create mode 100644 lessons/059/foo/templates/service.yaml
- create mode 100644 lessons/059/foo/templates/serviceaccount.yaml
- create mode 100644 lessons/059/foo/templates/tests/test-connection.yaml
- create mode 100644 lessons/059/foo/values.yaml
- create mode 100644 lessons/060/README.md
- create mode 100644 lessons/060/eks.yaml
- create mode 100644 lessons/061/README.md
- create mode 100644 lessons/061/eks.yaml
- create mode 100644 lessons/061/infra/ecr-job.yaml
- create mode 100644 lessons/061/infra/nginx-policy.yaml
- create mode 100644 lessons/061/infra/nginx-registry.yaml
- create mode 100644 lessons/061/infra/nginx.yaml
- create mode 100644 lessons/061/infra/update-policy.yaml
- create mode 100644 lessons/062/README.md
- create mode 100644 lessons/062/bootstrap.sh
- create mode 100644 lessons/062/devopsbyexample.io
- create mode 100644 lessons/062/index.html
- create mode 100644 lessons/062/nginx.pkr.hcl
- create mode 100644 lessons/063/README.md
- create mode 100644 lessons/063/blue.tf
- create mode 100644 lessons/063/green.tf
- create mode 100644 lessons/063/init-script.sh
- create mode 100644 lessons/063/main.tf
- create mode 100644 lessons/063/outputs.tf
- create mode 100644 lessons/063/variables.tf
- create mode 100644 lessons/063/versions.tf
- create mode 100644 lessons/064/0-deployment.yaml
- create mode 100644 lessons/064/1-service.yaml
- create mode 100644 lessons/064/README.md
+ /006/README.md
+ /006/main.tf
+ /014/README.md
+ /014/ansible.cfg
+ /014/main.tf
+ /014/nginx.yaml
+ /014/roles/nginx/tasks/main.yaml
+ /020/README.md
+ /020/main.tf
+ /021/README.md
+ /021/eksctl-cluster.yaml
+ /021/hello-wolrd/.helmignore
+ /021/hello-wolrd/Chart.yaml
+ /021/hello-wolrd/templates/NOTES.txt
+ /021/hello-wolrd/templates/_helpers.tpl
+ /021/hello-wolrd/templates/deployment.yaml
+ /021/hello-wolrd/templates/hpa.yaml
+ /021/hello-wolrd/templates/ingress.yaml
+ /021/hello-wolrd/templates/service.yaml
+ /021/hello-wolrd/templates/serviceaccount.yaml
+ /021/hello-wolrd/templates/tests/test-connection.yaml
+ /021/hello-wolrd/values.yaml
+ /022/1/app/.helmignore
+ /022/1/app/Chart.lock
+ /022/1/app/Chart.yaml
+ /022/1/app/templates/NOTES.txt
+ /022/1/app/templates/_helpers.tpl
+ /022/1/app/templates/deployment.yaml
+ /022/1/app/templates/hpa.yaml
+ /022/1/app/templates/ingress.yaml
+ /022/1/app/templates/service.yaml
+ /022/1/app/templates/serviceaccount.yaml
+ /022/1/app/templates/tests/test-connection.yaml
+ /022/1/app/values.yaml
+ /022/1/database/.helmignore
+ /022/1/database/Chart.yaml
+ /022/1/database/templates/NOTES.txt
+ /022/1/database/templates/_helpers.tpl
+ /022/1/database/templates/deployment.yaml
+ /022/1/database/templates/hpa.yaml
+ /022/1/database/templates/ingress.yaml
+ /022/1/database/templates/service.yaml
+ /022/1/database/templates/serviceaccount.yaml
+ /022/1/database/templates/tests/test-connection.yaml
+ /022/1/database/values.yaml
+ /022/2/app/.helmignore
+ /022/2/app/Chart.lock
+ /022/2/app/Chart.yaml
+ /022/2/app/templates/NOTES.txt
+ /022/2/app/templates/_helpers.tpl
+ /022/2/app/templates/deployment.yaml
+ /022/2/app/templates/hpa.yaml
+ /022/2/app/templates/ingress.yaml
+ /022/2/app/templates/service.yaml
+ /022/2/app/templates/serviceaccount.yaml
+ /022/2/app/templates/tests/test-connection.yaml
+ /022/2/app/values.yaml
+ /022/2/database/.helmignore
+ /022/2/database/Chart.yaml
+ /022/2/database/templates/NOTES.txt
+ /022/2/database/templates/_helpers.tpl
+ /022/2/database/templates/deployment.yaml
+ /022/2/database/templates/hpa.yaml
+ /022/2/database/templates/ingress.yaml
+ /022/2/database/templates/service.yaml
+ /022/2/database/templates/serviceaccount.yaml
+ /022/2/database/templates/tests/test-connection.yaml
+ /022/2/database/values.yaml
+ /022/3/app/.helmignore
+ /022/3/app/Chart.lock
+ /022/3/app/Chart.yaml
+ /022/3/app/templates/NOTES.txt
+ /022/3/app/templates/_helpers.tpl
+ /022/3/app/templates/deployment.yaml
+ /022/3/app/templates/hpa.yaml
+ /022/3/app/templates/ingress.yaml
+ /022/3/app/templates/service.yaml
+ /022/3/app/templates/serviceaccount.yaml
+ /022/3/app/templates/tests/test-connection.yaml
+ /022/3/app/values.yaml
+ /022/3/database/.helmignore
+ /022/3/database/Chart.yaml
+ /022/3/database/templates/NOTES.txt
+ /022/3/database/templates/_helpers.tpl
+ /022/3/database/templates/deployment.yaml
+ /022/3/database/templates/hpa.yaml
+ /022/3/database/templates/ingress.yaml
+ /022/3/database/templates/service.yaml
+ /022/3/database/templates/serviceaccount.yaml
+ /022/3/database/templates/tests/test-connection.yaml
+ /022/3/database/values.yaml
+ /022/README.md
+ /022/eksctl-cluster.yaml
+ /038/README.md
+ /038/k8s/app.yaml
+ /038/k8s/rbac.yaml
+ /038/terraform/eips.tf
+ /038/terraform/eks-node-groups.tf
+ /038/terraform/eks.tf
+ /038/terraform/internet-gateway.tf
+ /038/terraform/nat-gateways.tf
+ /038/terraform/provider.tf
+ /038/terraform/route-table-association.tf
+ /038/terraform/routing-tables.tf
+ /038/terraform/subnets.tf
+ /038/terraform/vpc.tf
+ /039/README.md
+ /039/config.yaml
+ /040/main.tf
+ /040/output.tf
+ /040/provider.tf
+ /040/variables.tf
+ /041/README.md
+ /041/cluster.yaml
+ /041/efs/1-namespace.yaml
+ /041/efs/2-service-account.yaml
+ /041/efs/3-clusterrole.yaml
+ /041/efs/4-clusterrolebinding.yaml
+ /041/efs/5-role.yaml
+ /041/efs/6-rolebinding.yaml
+ /041/efs/7-deployment.yaml
+ /041/efs/8-storage-class.yaml
+ /041/test/1-namespace.yaml
+ /041/test/2-persistent-volume-claim.yaml
+ /041/test/3-foo-deployment.yaml
+ /041/test/4-bar-deployment.yaml
+ /042/README.md
+ /042/cluster.yaml
+ /042/secret-v1.yaml
+ /042/secret-v2.yaml
+ /042/token.txt
+ /042/v1/kustomization.yaml
+ /042/v1/token
+ /042/v2/kustomization.yaml
+ /043/Makefile
+ /043/README.md
+ /043/app/Dockerfile
+ /043/app/go.mod
+ /043/app/go.sum
+ /043/app/main.go
+ /043/eks.yaml
+ /043/k8s/01-secret.yaml
+ /043/k8s/02-deployment-file.yaml
+ /043/k8s/04-deployment-env.yaml
+ /044/Makefile
+ /044/README.md
+ /044/app/.dockerignore
+ /044/app/Dockerfile
+ /044/app/requirements.txt
+ /044/app/src/server.py
+ /044/cert.pem
+ /044/eks.yaml
+ /044/k8s/01-kubeseal.yaml
+ /044/k8s/02-namespace.yaml
+ /044/k8s/03-secret.yaml
+ /044/k8s/04-sealedsecret.yaml
+ /044/k8s/05-deployment.yaml
+ /045/README.md
+ /045/eks.yaml
+ /045/k8s/01-production-ns.yaml
+ /045/k8s/02-staging-ns.yaml
+ /045/k8s/03-production-deployment.yaml
+ /045/k8s/04-staging-deployment.yaml
+ /046/README.md
+ /046/app/.dockerignore
+ /046/app/Dockerfile
+ /046/app/package-lock.json
+ /046/app/package.json
+ /046/app/server.js
+ /046/eks.yaml
+ /046/k8s/1-express.yaml
+ /046/k8s/2-nginx-ingress.yaml
+ /046/k8s/3-http-ingress.yaml
+ /046/k8s/4-cert-manager.yaml
+ /046/k8s/5-issuer.yaml
+ /046/k8s/8-https-ingress.yaml
+ /047/README.md
+ /047/hello-app/Dockerfile
+ /047/hello-app/app.js
+ /047/hello-app/package-lock.json
+ /047/hello-app/package.json
+ /048/README.md
+ /048/hello-app/Dockerfile
+ /048/hello-app/app.js
+ /048/hello-app/app.test.js
+ /048/hello-app/event.json
+ /048/hello-app/package-lock.json
+ /048/hello-app/package.json
+ /049/README.md
+ /049/alertmanager/1-config.yaml
+ /049/alertmanager/2-alertmanager.yaml
+ /049/alertmanager/3-ingress.yaml
+ /049/alertmanager/4-service-monitor.yaml
+ /049/alertmanager/5-rule.yaml
+ /049/crds/alertmanagerconfigs.yaml
+ /049/crds/alertmanagers.yaml
+ /049/crds/podmonitors.yaml
+ /049/crds/probes.yaml
+ /049/crds/prometheuses.yaml
+ /049/crds/prometheusrules.yaml
+ /049/crds/servicemonitors.yaml
+ /049/crds/thanosrulers.yaml
+ /049/eks.yaml
+ /049/grafana/1-service-account.yaml
+ /049/grafana/2-configmap.yaml
+ /049/grafana/3-pvc.yaml
+ /049/grafana/4-secret.yaml
+ /049/grafana/5-deployment.yaml
+ /049/grafana/6-service.yaml
+ /049/grafana/7-ingress.yaml
+ /049/grafana/8-service-monitor.yaml
+ /049/prometheus-operator/0-namespace.yaml
+ /049/prometheus-operator/1-service-account.yaml
+ /049/prometheus-operator/2-cluster-role.yaml
+ /049/prometheus-operator/3-cluster-role-binding.yaml
+ /049/prometheus-operator/4-deployment.yaml
+ /049/prometheus-operator/5-service.yaml
+ /049/prometheus-operator/6-service-monitor.yaml
+ /049/prometheus/1-service-account.yaml
+ /049/prometheus/2-cluster-role.yaml
+ /049/prometheus/3-cluster-role-binding.yaml
+ /049/prometheus/4-prometheus.yaml
+ /049/prometheus/5-ingress.yaml
+ /049/prometheus/6-service-monitor.yaml
+ /050/README.md
+ /050/drage/.dockerignore
+ /050/drage/.eslintrc.js
+ /050/drage/.gitignore
+ /050/drage/.prettierrc
+ /050/drage/Dockerfile
+ /050/drage/README.md
+ /050/drage/nest-cli.json
+ /050/drage/package-lock.json
+ /050/drage/package.json
+ /050/drage/src/app.controller.spec.ts
+ /050/drage/src/app.controller.ts
+ /050/drage/src/app.module.ts
+ /050/drage/src/app.service.ts
+ /050/drage/src/books/books.controller.spec.ts
+ /050/drage/src/books/books.controller.ts
+ /050/drage/src/books/books.module.ts
+ /050/drage/src/books/books.service.spec.ts
+ /050/drage/src/books/books.service.ts
+ /050/drage/src/books/dto/create-book.dto.ts
+ /050/drage/src/books/dto/update-book.dto.ts
+ /050/drage/src/books/entities/book.entity.ts
+ /050/drage/src/books/schemas/book.schema.ts
+ /050/drage/src/main.ts
+ /050/drage/test/app.e2e-spec.ts
+ /050/drage/test/jest-e2e.json
+ /050/drage/tsconfig.build.json
+ /050/drage/tsconfig.json
+ /050/eks.yaml
+ /050/k8s/drage/1-namespace.yaml
+ /050/k8s/drage/2-secrets.yaml
+ /050/k8s/drage/3-deployment.yaml
+ /050/k8s/drage/4-service.yaml
+ /050/k8s/mongodb/1-database-namespace.yaml
+ /050/k8s/mongodb/10-monogodb-servicemonitor.yaml
+ /050/k8s/mongodb/2-mongodb-secrets.yaml
+ /050/k8s/mongodb/3-mongodb-serviceaccount.yaml
+ /050/k8s/mongodb/4-mongodb-scripts-configmap.yaml
+ /050/k8s/mongodb/5-mongodb-statefulset.yaml
+ /050/k8s/mongodb/6-mongodb-headless-svc.yaml
+ /050/k8s/mongodb/7-arbiter-statefulset.yaml
+ /050/k8s/mongodb/8-arbiter-headless-svc.yaml
+ /050/k8s/mongodb/9-monogodb-metrics-svc.yaml
+ /051/README.md
+ /051/app123/.gitignore
+ /051/app123/README.md
+ /051/app123/package-lock.json
+ /051/app123/package.json
+ /051/app123/public/favicon.ico
+ /051/app123/public/index.html
+ /051/app123/public/logo192.png
+ /051/app123/public/logo512.png
+ /051/app123/public/manifest.json
+ /051/app123/public/robots.txt
+ /051/app123/src/App.css
+ /051/app123/src/App.js
+ /051/app123/src/App.test.js
+ /051/app123/src/index.css
+ /051/app123/src/index.js
+ /051/app123/src/logo.svg
+ /051/app123/src/reportWebVitals.js
+ /051/app123/src/setupTests.js
+ /052/README.md
+ /052/app123/.gitignore
+ /052/app123/README.md
+ /052/app123/package-lock.json
+ /052/app123/package.json
+ /052/app123/public/CNAME
+ /052/app123/public/favicon.ico
+ /052/app123/public/index.html
+ /052/app123/public/logo192.png
+ /052/app123/public/logo512.png
+ /052/app123/public/manifest.json
+ /052/app123/public/robots.txt
+ /052/app123/src/App.css
+ /052/app123/src/App.js
+ /052/app123/src/App.test.js
+ /052/app123/src/index.css
+ /052/app123/src/index.js
+ /052/app123/src/logo.svg
+ /052/app123/src/reportWebVitals.js
+ /052/app123/src/setupTests.js
+ /053/README.md
+ /053/infra-2/.circleci/config.yml
+ /053/infra-2/.gitignore
+ /053/infra-2/main.tf
+ /054/README.md
+ /054/ca-config.json
+ /054/ca-csr.json
+ /054/ca-key.pem
+ /054/ca.csr
+ /054/ca.pem
+ /054/devopsbyexample-csr.json
+ /054/devopsbyexample-key.pem
+ /054/devopsbyexample.csr
+ /054/devopsbyexample.pem
+ /055/README.md
+ /055/nginx/Dockerfile
+ /055/nginx/devopsbyexample.conf
+ /055/nginx/index.html
+ /055/nginx/nginx.conf
+ /056/README.md
+ /057/README.md
+ /058/README.md
+ /058/function/Dockerfile
+ /058/function/app.py
+ /058/function/requirements.txt
+ /058/main.py
+ /058/title.txt
+ /059/README.md
+ /059/eks.yaml
+ /059/foo/.helmignore
+ /059/foo/Chart.yaml
+ /059/foo/templates/NOTES.txt
+ /059/foo/templates/_helpers.tpl
+ /059/foo/templates/deployment.yaml
+ /059/foo/templates/hooks/post-install.yaml
+ /059/foo/templates/hooks/pre-install.yaml
+ /059/foo/templates/hpa.yaml
+ /059/foo/templates/ingress.yaml
+ /059/foo/templates/service.yaml
+ /059/foo/templates/serviceaccount.yaml
+ /059/foo/templates/tests/test-connection.yaml
+ /059/foo/values.yaml
+ /060/README.md
+ /060/eks.yaml
+ /061/README.md
+ /061/eks.yaml
+ /061/infra/ecr-job.yaml
+ /061/infra/nginx-policy.yaml
+ /061/infra/nginx-registry.yaml
+ /061/infra/nginx.yaml
+ /061/infra/update-policy.yaml
+ /062/README.md
+ /062/bootstrap.sh
+ /062/devopsbyexample.io
+ /062/index.html
+ /062/nginx.pkr.hcl
+ /063/README.md
+ /063/blue.tf
+ /063/green.tf
+ /063/init-script.sh
+ /063/main.tf
+ /063/outputs.tf
+ /063/variables.tf
+ /063/versions.tf
+ /064/0-deployment.yaml
+ /064/1-service.yaml
+ /064/README.md
